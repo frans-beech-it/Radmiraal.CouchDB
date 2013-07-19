@@ -3,13 +3,12 @@
 	"type": "typo3-flow-package",
 	"description": "",
 	"license": ["LGPL-3.0+"],
-	"repository": [
+	"authors": [
+		{"name": "Rens Admiraal Beech.it"}
 	],
 	"require": {
 		"typo3/flow": "*",
-		"doctrine/couchdb-odm": "dev-master",
-		"doctrine/dbal": "2.3.1",
-		"doctrine/orm": "2.3.1"
+		"doctrine/couchdb-odm": "1.0.0ALPHA2"
 	},
 	"autoload": {
 		"psr-0": {
